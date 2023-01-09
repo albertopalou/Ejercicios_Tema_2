@@ -1,9 +1,9 @@
-# Ejercicio 1
+# Ejercicio 1.
 from cmath import sqrt
 class Punto:
     def __init__ (self, ejex=0, ejey=0):
         self.ejex = ejex
-        self.ejey = ejey
+        self.ejey = ejey 
 
     def __str__(self):
         return f"({self.ejex},{self.ejey}"
